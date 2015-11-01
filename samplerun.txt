@@ -1,0 +1,106 @@
+carlin@ubuntu:~/Workspace/kpcb-2016challenge$ javac hashmap.java 
+carlin@ubuntu:~/Workspace/kpcb-2016challenge$ java hashmap test1.txt
+What is the size of the table?
+100
+Generating Hashmap based on textfile.....
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+get home
+Please enter a key: 
+Value Found: 127.0.0.1
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+set
+Please enter a key: 
+carlin
+Please enter a value: 
+au
+Value set: au
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+get
+Please enter a key: 
+carlin
+Value Found: au
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+delete
+Please enter a key: 
+carlin
+Value deleted: au
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+load
+Current Size: 5
+Capacity: 100
+
+Load Factor: 0.05
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+set
+Please enter a key: 
+kpcb
+Please enter a value: 
+2016
+Value set: 2016
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+get
+Please enter a key: 
+kpcb
+Value Found: 2016
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+load
+Current Size: 6
+Capacity: 100
+
+Load Factor: 0.06
+
+Choose an action (Type "q" to exit)
+Options:
+Set
+Get
+Delete
+Load
+q
+carlin@ubuntu:~/Workspace/kpcb-2016challenge$ 
