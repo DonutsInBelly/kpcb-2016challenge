@@ -10,6 +10,10 @@ public class Table
 		this.size = 0;
 		this.table = new Object[capacity];
 	}
+	/*
+	 * Set uses linear probing to handle collisions
+	 * landing: resulting integer from the key to be used as an index
+	 */
 	public boolean set(String key, Object element)
     {
 		int landing = key.hashCode()%capacity;
