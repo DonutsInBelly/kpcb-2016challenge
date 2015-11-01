@@ -10,6 +10,20 @@ import java.util.StringTokenizer;
 
 public class hashmap
 {
+	/**
+	 * @param takes 1 String argument at runtime called "text".
+	 * 		  This is the text file for input in the hash table.
+	 * 		  Key Value pairs in the text file are done in this format:
+	 * 		  key,value
+	 * hashmap takes a text file. Reads it line by line and tokenizes each line.
+	 * Each line is a key value pair and is put into the hashmap.
+	 * The hashing function is just taking the String key and getting the hashCode() and taking the modulus of it
+	 * After that, it takes the user into a menu to do manual functions like:
+	 * Set
+	 * Get
+	 * Delete
+	 * Load
+	 */
     public static void main (String args[])
     {
     	if(args[0]==null)
